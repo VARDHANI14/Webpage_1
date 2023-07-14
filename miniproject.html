@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .maindiv{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            text-decoration: solid;
+            background-image: url("https://images.pexels.com/photos/3699921/pexels-photo-3699921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-size: cover;
+            font-size: 40px;
+            padding: 20px;
+            margin: 20px;
+        }
+        body{
+            background-color: coral;
+            background-image: url("https://images.pexels.com/photos/3699921/pexels-photo-3699921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-repeat: repeat-y;
+            background-size: cover;
+            opacity: 1;
+        }
+        header{
+            color:black;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            text-align: center;
+            background-image: linear-gradient(120deg,orange, white, green);
+            border-style: double;
+            border-color: black;
+            border-width: 6px;
+            text-shadow: 1px 1px black;
+            width: 100%;
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+        h4{
+            text-align: end;
+        }
+        footer{
+            color: black;
+            text-shadow: 2px 2px red;
+            position: fixed;
+            left: 1300px;
+            bottom: 0px;
+            text-align: center;
+            background-color: whitesmoke;
+            width: 1000px;
+            font-size: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        div{
+            background-color: bisque;
+            width: 3500px;
+            height: 800px;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px black;
+            text-shadow: 2px 2px black;
+        }
+        p1{
+            background-color: lightseagreen;
+            position: absolute;
+            left: 1350px;
+            top: 250px;
+            width: 2000px;
+            height: 350px;
+            border-radius: 12px;
+            padding-top: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        p2{
+            background-color: lightseagreen;
+            position: absolute;
+            left: 1350px;
+            top: 1000px;
+            width: 2000px;
+            height: 350px;
+            border-radius: 12px;
+            padding-top: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        p3{
+            background-color: lightseagreen;
+            position: absolute;
+            left: 1350px;
+            top: 1750px;
+            width: 2000px;
+            height: 350px;
+            border-radius: 12px;
+            padding-top: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        p4{
+            background-color: lightseagreen;
+            position: absolute;
+            left: 1350px;
+            top: 2500px;
+            width: 2000px;
+            height: 350px;
+            border-radius: 12px;
+            padding-top: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        p5{
+            background-color: lightseagreen;
+            position: absolute;
+            left: 1350px;
+            top: 3350px;
+            width: 2000px;
+            height: 350px;
+            border-radius: 12px;
+            padding-top: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        p6{
+            background-color: lightseagreen;
+            position: absolute;
+            left: 1350px;
+            top: 4200px;
+            width: 2000px;
+            height: 350px;
+            border-radius: 12px;
+            padding-top: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        p7{
+            background-color: lightseagreen;
+            position: absolute;
+            left: 1350px;
+            top: 4950px;
+            width: 2000px;
+            height: 350px;
+            border-radius: 12px;
+            padding-top: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        p8{
+            background-color: lightseagreen;
+            position: absolute;
+            left: 1350px;
+            top: 5650px;
+            width: 2000px;
+            height: 350px;
+            border-radius: 12px;
+            padding-top: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        p9{
+            background-color: lightseagreen;
+            position: absolute;
+            left: 1350px;
+            top: 6400px;
+            width: 2000px;
+            height: 350px;
+            border-radius: 12px;
+            padding-top: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+        <header>Historical Places In India</header>
+        <div id="a">
+            <h1 style="font-size: 50px;text-decoration: underline;text-align: center;">TAJ MAHAL</h1>
+            <img src="https://images.pexels.com/photos/3881104/pexels-photo-3881104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="800px" height="500px" >
+            <p1>The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ-/; lit. 'Crown of the Palace')[4][5][6] is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.
+        <a href="https://en.wikipedia.org/wiki/Taj_Mahal">TO REFER MORE</a>
+            </p1>
+        </div>
+        <div id="b">
+            <h2 style="font-size: 50px;text-decoration: underline;text-align: center;">GOA</h2>
+            <img src="https://images.pexels.com/photos/4428289/pexels-photo-4428289.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="800px" height="500px">
+            <p2>Goa (/ˈɡoʊə/ (listen)) is a state on the southwestern coast of India within the Konkan region, geographically separated from the Deccan highlands by the Western Ghats.[6][7] It is bound by the Indian states of Maharashtra to the north, and Karnataka to the east and south, with the Arabian Sea in the west. It is India's smallest state by area and fourth-smallest by population. Goa has the highest GDP per capita among all Indian states,[3][8] two and a half times as high as the GDP per capita of the country as a whole.
+        <a href="https://en.wikipedia.org/wiki/Goa">TO REFER MORE</a>
+            </p2>
+        </div>
+        <div id="c">
+            <h3 style="font-size: 50px;text-decoration: underline;text-align: center;">RAJASTHAN</h3>
+            <img src="https://images.pexels.com/photos/1588032/pexels-photo-1588032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="800px" height="500px">
+            <p3>
+                Rajasthan (Hindi: [rɑːdʒəsˈtʰɑːn] (listen); lit. 'Land of Kings')[11] is a state in northern India.[12][13][14] It covers 342,239 square kilometres (132,139 sq mi) or 10.4 per cent of India's total geographical area. It is the largest Indian state by area and the seventh largest by population. It is on India's northwestern side, where it comprises most of the wide and inhospitable Thar Desert (also known as the Great Indian Desert) and shares a border with the Pakistani provinces of Punjab to the northwest and Sindh to the west, along the Sutlej-Indus River valley.
+            <a href="https://en.wikipedia.org/wiki/Rajasthan">TO REFER MORE</a>
+            </p3>
+        </div>
+        <div id="d">
+            <h4 style="font-size: 50px;text-decoration: underline;text-align: center;">MANALI</h4>
+            <img src="https://images.pexels.com/photos/7846476/pexels-photo-7846476.jpeg?auto=compress&cs=tinysrgb&w=1600" width="800px" height="500px">
+            <p4>
+                Manali is a town, near Kullu town in Kullu district in the Indian state of Himachal Pradesh.[2] It is situated in the northern end of the Kullu Valley, formed by the Beas River. The town is located in the Kullu district, approximately 270 kilometres (170 mi) north of the state capital of Shimla and 544 kilometres (338 mi) northeast of the national capital of New Delhi. With a population of 8,096 people recorded in the 2011 Indian census Manali is the beginning of an ancient trade route through Lahaul (H.P) and Ladakh, over the Karakoram Pass and onto Yarkand and Hotan in the Tarim Basin of China.
+            <a href="https://en.wikipedia.org/wiki/Manali,_Himachal_Pradesh">TO REFER MORE</a>
+            </p4>
+        </div>
+        <div id="e">
+            <h5 style="font-size: 50px;text-decoration: underline;text-align: center;">GOLDEN TEMPLE</h5>
+            <img src="https://images.pexels.com/photos/12193697/pexels-photo-12193697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="800px" height="500px">
+            <p5>
+                The Golden Temple (also known as the Harimandir Sahib (lit. 'abode of God', Punjabi pronunciation: [ɦəɾᵊmən̪d̪əɾᵊ saːɦ(ɪ)bᵊ]), or the Darbār Sahib, 'exalted court', [d̪əɾᵊbaːɾᵊ saːɦ(ɪ)bᵊ] or Suvaran Mandir[2]) is a gurdwara located in the city of Amritsar, Punjab, India.[3][4] It is the preeminent spiritual site of Sikhism. It is one of the holiest sites in Sikhism, alongside the Gurdwara Darbar Sahib Kartarpur in Kartarpur, and Gurdwara Janam Asthan in Nankana Sahib.
+            <a href="https://en.wikipedia.org/wiki/Golden_Temple">TO REFER MORE</a>
+            </p5>
+        </div>
+        <div id="f">
+            <h6 style="font-size: 50px;text-decoration: underline;text-align: center;">LADAKH</h6>
+            <img src="https://images.pexels.com/photos/10610015/pexels-photo-10610015.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="800px" height="500px">
+            <p6>
+                Ladakh (/ləˈdɑːk/)[10] is a region administered by India as a union territory[1] and constitutes an eastern portion of the larger Kashmir region that has been the subject of a dispute between India and Pakistan since 1947 and India and China since 1959.[2] Ladakh is bordered by the Tibet Autonomous Region to the east, the Indian state of Himachal Pradesh to the south, both the Indian-administered union territory of Jammu and Kashmir and the Pakistan-administered Gilgit-Baltistan to the west, and the southwest corner of Xinjiang across the Karakoram Pass in the far north.
+            <a href="https://en.wikipedia.org/wiki/Ladakh">TO REFER MORE</a> 
+            </p6>
+        </div>
+        <div id="g">
+            <h1 style="font-size: 50px;text-decoration: underline;text-align: center;">CHARMINAR</h1>
+            <img src="https://images.pexels.com/photos/9025814/pexels-photo-9025814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="800px" height="500px" >
+            <p7>
+                The Charminar (lit. 'four minarets') is a monument located in Hyderabad, Telangana, India. Constructed in 1591, the landmark is a symbol of Hyderabad and officially incorporated in the emblem of Telangana.[3] The Charminar's long history includes the existence of a mosque on its top floor for more than 425 years. While both historically and religiously significant, it is also known for its popular and busy local markets surrounding the structure, and has become one of the most frequented tourist attractions in Hyderabad.
+            <a href="https://en.wikipedia.org/wiki/Charminar">TO REFER MORE</a>
+            </p7>
+            
+
+        </div>
+        <div id="h">
+            <h1 style="font-size: 50px;text-decoration: underline;text-align: center;">INDIA GATE</h1>
+            <img src="https://images.pexels.com/photos/13943611/pexels-photo-13943611.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="800px" height="500px">
+            <p8>
+                The India Gate (formerly known as All India War Memorial) is a war memorial located near the Kartavya path on the eastern edge of the "ceremonial axis" of New Delhi, formerly called Rajpath. It stands as a memorial to 84,000 soldiers of the British Indian Army who died between 1914 and 1921 in the First World War, in France, Flanders, Mesopotamia, Persia, East Africa, Gallipoli and elsewhere in the Near and the Far East, and the Third Anglo-Afghan War. 13,300 servicemen's names, including some soldiers and officers from the United Kingdom, are inscribed on the gate.[2]
+            <a href="https://en.wikipedia.org/wiki/India_Gate">TO REFER MORE</a>
+            </p8>
+        </div>
+        <div id="i">
+            <h1 style="font-size: 50px;text-decoration: underline;text-align: center;">KEDARNATH</h1>
+            <img src="https://images.pexels.com/photos/14617402/pexels-photo-14617402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="800px" height="500px">
+            <p9>
+                Kedarnath is a town and Nagar Panchayat in Rudraprayag district of Uttarakhand, India, known primarily for the Kedarnath Temple. It is approximately 86 kilometres from Rudraprayag, the district headquarter. Kedarnath is the most remote of the four Chota Char Dham pilgrimage sites. It is located in the Himalayas, about 3,583 m (11,755 ft) above sea level near the Chorabari Glacier, which is the source of the Mandakini river. The town is flanked by snow-capped peaks, most prominently the Kedarnath Mountain.
+            <a href="https://en.wikipedia.org/wiki/Kedarnath">TO REFER MORE</a>
+            </p9>
+        </div>
+    <p> click on the play button to play NationalAnthem</p>
+    <audio controls>
+        <source src="NationalAnthem.mp3" type="audio/mp3">
+    </audio>
+       
+    <footer>Thank You</footer>    
+    <h4>-Designed by K.VARDHANI</h4>
+    
+    </div>
+</body>
+</html>
